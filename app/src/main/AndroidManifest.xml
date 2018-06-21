@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.f20170270.quizapp1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".scroll"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main9Activity" />
+        <activity
+            android:name=".scroll2"
+            android:label="@string/title_activity_scroll2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll3"
+            android:label="@string/title_activity_scroll3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll4"
+            android:label="@string/title_activity_scroll4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll5"
+            android:label="@string/title_activity_scroll5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll6"
+            android:label="@string/title_activity_scroll6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll7"
+            android:label="@string/title_activity_scroll7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".scroll8"
+            android:label="@string/title_activity_scroll8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".gratitude" />
+        <activity android:name=".thank" />
+        <activity android:name=".answers" />
+        <activity android:name=".level2"></activity>
+    </application>
+
+</manifest>
