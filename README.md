@@ -1,3 +1,2 @@
-# badri
-This is my quiz app repository
-#Android app development
+# Android app development
+This project aims to build an Android app called quizApp
